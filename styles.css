@@ -16,17 +16,17 @@ header {
 
 #logo {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f9faf8;
 }
 
-.nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-.nav ul {
+nav ul {
   list-style-type: none;
   display: flex;
   gap: 1.5em;
@@ -39,7 +39,7 @@ a {
   text-decoration: none;
 }
 
-.welcome {
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,18 +47,18 @@ a {
   gap: 2em;
 }
 
-.welcome .left {
+.hero .left {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.welcome .right {
+.hero .right {
   flex-shrink: 0;
   width: 50%;
 }
 
-.hero {
+h1 {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
@@ -66,7 +66,7 @@ a {
 
 button {
   background-color: #3882f6;
-  color: #fff;
+  color: white;
   font-size: 18px;
   width: 120px;
   border-radius: 8px;
@@ -74,16 +74,17 @@ button {
   font-weight: 600;
 }
 
-.welcome button {
+.hero button {
   border: none;
 }
 
 .image {
-  background-color: gray;
+  background-color: #6d747d;
   height: 215px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 main {
@@ -93,7 +94,7 @@ main {
   margin-top: 3em;
 }
 
-main h2 {
+h2 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
@@ -142,12 +143,12 @@ main h2 {
 
 .quote p {
   align-self: flex-end;
-  font-weight: bold;
   font-size: 24px;
+  font-weight: bold;
   color: #1f2937;
 }
 
-.sign-up {
+.call-to-action {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,17 +162,16 @@ main h2 {
   background-color: #3882f6;
   border-radius: 8px;
   padding: 3em 10em;
-  width: 100%;
   gap: 10em;
-}
-
-.container button {
-  border: 2px solid #fff;
 }
 
 strong {
   font-size: 24px;
-  color: #fff;
+  color: white;
+}
+
+.container button {
+  border: 2px solid white;
 }
 
 footer {
